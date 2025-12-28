@@ -31,7 +31,17 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+**Spec-First Development**: All implementation must be generated through Claude Code based on clear, comprehensive specifications. Every feature requires a specification document before implementation.
+
+**Progressive Complexity**: Each phase builds upon the previous, demonstrating natural software evolution from prototype to production system.
+
+**AI-Native Architecture**: The system must demonstrate modern AI-native patterns, including conversational interfaces, intelligent agents, and tool-based architectures.
+
+**Cloud-Native Design**: Applications must follow cloud-native principles: containerization, orchestration, scalability, resilience, and observability.
+
+**Separation of Concerns**: Clear boundaries between frontend, backend, database, AI services, and infrastructure layers.
+
+**Spec-Driven Development Workflow**: Every feature must follow the spec-driven workflow: Write user stories, define technical specifications, organize specifications, use Claude Code for generation, validate and iterate.
 
 ## Project Structure
 

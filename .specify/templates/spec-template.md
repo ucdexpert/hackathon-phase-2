@@ -1,9 +1,10 @@
 # Feature Specification: [FEATURE NAME]
 
-**Feature Branch**: `[###-feature-name]`  
-**Created**: [DATE]  
-**Status**: Draft  
+**Feature Branch**: `[###-feature-name]`
+**Created**: [DATE]
+**Status**: Draft
 **Input**: User description: "$ARGUMENTS"
+**Constitution Compliance**: All features must comply with Todo Evolution Constitution principles
 
 ## User Scenarios & Testing *(mandatory)*
 
@@ -99,6 +100,20 @@
 
 - **[Entity 1]**: [What it represents, key attributes without implementation]
 - **[Entity 2]**: [What it represents, relationships to other entities]
+
+### Constitution Compliance Check
+
+**Spec-First Development**: This feature specification must be complete before any implementation begins.
+
+**Progressive Complexity**: This feature must build upon existing functionality without breaking previous features.
+
+**AI-Native Architecture**: If applicable, AI integration must follow MCP standards and OpenAI Agents SDK guidelines.
+
+**Cloud-Native Design**: If applicable, feature must follow cloud-native principles: containerization, scalability, resilience.
+
+**Separation of Concerns**: Feature implementation must maintain clear boundaries between system layers.
+
+**Spec-Driven Development Workflow**: Implementation must be generated via Claude Code based on this specification.
 
 ## Success Criteria *(mandatory)*
 
